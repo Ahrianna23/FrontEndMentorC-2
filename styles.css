@@ -1,0 +1,184 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width:475px) {
+  .container {
+    width: 100%;
+    max-width: inherit;
+    height: auto;
+    padding: 100px 50px;
+    font-family: 'Poppins';
+  }
+  /* Universal Font Styling */
+  .Light-Font { font-weight: 200;}
+
+  .Heavy-Font { font-weight: 600;}
+
+  .Grey-Text { color: hsl(229, 6%, 66%); }
+
+  .Darken-Text { color: hsl(234, 12%, 34%) }
+
+  /* Header/Row 1 Styling Section */
+
+  .header-row { text-align: center;}
+
+  .header-text {
+    font-size: 1.8em;
+    text-align: center;
+  }
+    .header-description {
+      line-height: 175%;
+    }
+
+  /* Row 2 Styling Section */
+  .card {
+    margin: 20px 0;
+    position: relative;
+    min-height: 320px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0px 30px 30px -5px rgba(99, 154, 209, .2);
+    border-top: 5px solid;
+    padding: 10px;
+  }
+    /* Border Styling for the Card */
+    #teal-border {border-color: hsl(180, 62%, 55%); margin-top: 100px;}
+
+    #red-border {border-color: hsl(0, 78%, 62%)}
+
+    #yellow-border {border-color: hsl(34, 97%, 64%); margin-top:40px;}
+
+    #blue-border {border-color: hsl(212, 86%, 64%)}
+    /* End of Border Styling for the Card */
+
+  .card-img {
+    width: 100px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+}
+
+@media only screen and (min-width:769px) {
+
+  .container {
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    padding: 50px 20;
+    font-family: 'Poppins';
+  }
+  /* Universal Font Styling */
+  .Light-Font { font-weight: 200;}
+
+  .Heavy-Font { font-weight: 600;}
+
+  .Grey-Text { color: hsl(229, 6%, 66%); }
+
+  .Darken-Text { color: hsl(234, 12%, 34%) }
+
+  /* Header/Row 1 Styling Section */
+
+  .header-row { text-align: center;}
+
+  .header-text {
+    font-size: 1.8em;
+    text-align: center;
+  }
+    .header-description {
+      line-height: 175%;
+    }
+
+  /* Row 2 Styling Section */
+  .card {
+    margin: 20px 0;
+    position: relative;
+    min-height: 270px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0px 30px 30px -5px rgba(99, 154, 209, .2);
+    border-top: 5px solid;
+    padding: 10px;
+  }
+    /* Border Styling for the Card */
+    #teal-border {border-color: hsl(180, 62%, 55%); margin-top: 80%;}
+
+    #red-border {border-color: hsl(0, 78%, 62%)}
+
+    #yellow-border {border-color: hsl(34, 97%, 64%); margin-top:40px;}
+
+    #blue-border {border-color: hsl(212, 86%, 64%); margin-top: 80%;}
+    /* End of Border Styling for the Card */
+
+  .card-title {
+    font-size: 1.6em;
+  }
+  .card-img {
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+@media only screen and (min-width:1300px) {
+
+  .container {
+    width: 100%;
+    height: auto;
+    max-width: 	1140px;
+    padding: 50px 120px;
+    font-family: 'Poppins';
+  }
+  /* Universal Font Styling */
+  .Light-Font { font-weight: 200;}
+
+  .Heavy-Font { font-weight: 600;}
+
+  .Grey-Text { color: hsl(229, 6%, 66%); }
+
+  .Darken-Text { color: hsl(234, 12%, 34%) }
+
+  /* Header/Row 1 Styling Section */
+
+  .header-row { text-align: center;}
+
+  .header-text {
+    font-size: 1.8em;
+    text-align: center;
+  }
+    .header-description {
+      line-height: 175%;
+    }
+
+  /* Row 2 Styling Section */
+  .card {
+    margin: 20px 0;
+    position: relative;
+    min-height: 300px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0px 30px 30px -5px rgba(99, 154, 209, .2);
+    border-top: 5px solid;
+    padding: 10px;
+  }
+    /* Border Styling for the Card */
+    #teal-border {border-color: hsl(180, 62%, 55%); margin-top: 65%;}
+
+    #red-border {border-color: hsl(0, 78%, 62%)}
+
+    #yellow-border {border-color: hsl(34, 97%, 64%); margin-top:40px;}
+
+    #blue-border {border-color: hsl(212, 86%, 64%); margin-top: 65%;}
+    /* End of Border Styling for the Card */
+
+  .card-title {
+    font-size: 1.6em;
+  }
+  .card-img {
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
